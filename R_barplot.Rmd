@@ -9,8 +9,9 @@ output: html_document
 library(tidyverse)
 library(showtext)
 library(showtextdb)
-showtext_auto()
+library(sysfonts)
 font_add_google("Roboto Condensed")
+
 pink <- '#C6878F'
 brown <- '#E07A5F'
 blue <- '#3D405B'
@@ -49,14 +50,16 @@ p <- ggplot(df_grouped, aes(x=factor(mutation_category, level = c('nonsynonymous
   geom_bar(stat = "identity", position=position_dodge()) +
   scale_fill_manual(values=c(blue,brown))+
   geom_text(aes(label=number), vjust=-0.3, color="black",
-            position = position_dodge(0.9), size=8)+
+            position = position_dodge(0.9), cex=2)+
   theme_bw() +
   labs(title= 'Number of APOPBEC targets and observed APOBEC3-like sites by mutation category',
       x = 'Mutation type',
       y = 'Proportion') +
-    theme(text=element_text(size=24, family="Roboto Condensed"),
-        plot.title = element_text(hjust = 0.5, size = 24),
-        axis.text=element_text(size=24))
+    theme(text=element_text(size=6),
+        plot.title = element_text(hjust = 0.5, size = 7),
+        axis.text=element_text(size=6))
+
+p
 
 ggsave('data/APOBEC_targets_plus_observed.png', plot = p, height=4, width=5, dpi=300)
 ```

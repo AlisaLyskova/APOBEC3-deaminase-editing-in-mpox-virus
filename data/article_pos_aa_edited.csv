@@ -1,8 +1,8 @@
 #CHROM	position	REF	ALT	nucl_pos_codon	parent_codon	parent_aa	child_codon	mutated_aa	mutation_category
 NC_063383.1	186165	G	A	1	GAT	D	AAT	N	nonsynonymous
-NC_063383.1	55133	G	A	3	CTC	L	CTT	L	synonymous
-NC_063383.1	55133	G	A	3	CTC	L	CTT	L	synonymous
-NC_063383.1	55133	G	A	3	CTC	L	CTT	L	synonymous
+NC_063383.1	55133	G	A	1	CGT	R	TGT	C	nonsynonymous
+NC_063383.1	55133	G	A	1	CGT	R	TGT	C	nonsynonymous
+NC_063383.1	55133	G	A	1	CGT	R	TGT	C	nonsynonymous
 NC_063383.1	55133	G	A	3	CTC	L	CTT	L	synonymous
 NC_063383.1	55133	G	A	3	CTC	L	CTT	L	synonymous
 NC_063383.1	55133	G	A	3	CTC	L	CTT	L	synonymous
@@ -133,7 +133,7 @@ NC_063383.1	5595	G	A	1	CAG	Q	TAG	*	nonsense
 NC_063383.1	186255	G	A	1	GAG	E	AAG	K	nonsynonymous
 NC_063383.1	2039	G	A	2	TCA	S	TTA	L	nonsynonymous
 NC_063383.1	16213	G	A	3	ATC	I	ATT	I	synonymous
-NC_063383.1	78034	G	A	1	GAT	D	AAT	N	nonsynonymous
+NC_063383.1	78034	G	A	3	ACG	T	ACA	T	synonymous
 NC_063383.1	78034	G	A	1	GAT	D	AAT	N	nonsynonymous
 NC_063383.1	165465	G	A	2	GGA	G	GAA	E	nonsynonymous
 NC_063383.1	156469	G	A	-	-	-	-	-	intergenic
@@ -283,7 +283,7 @@ NC_063383.1	20576	G	A	3	CTC	L	CTT	L	synonymous
 NC_063383.1	187418	G	A	-	-	-	-	-	intergenic
 NC_063383.1	187567	G	A	-	-	-	-	-	intergenic
 NC_063383.1	50151	G	A	1	GAC	D	AAC	N	nonsynonymous
-NC_063383.1	149818	G	A	2	TGA	*	TAA	*	synonymous
+NC_063383.1	149818	G	A	1	GAT	D	AAT	N	nonsynonymous
 NC_063383.1	149818	G	A	2	TGA	*	TAA	*	synonymous
 NC_063383.1	151362	G	A	-	-	-	-	-	intergenic
 NC_063383.1	168174	G	A	-	-	-	-	-	intergenic
@@ -383,7 +383,7 @@ NC_063383.1	86622	C	T	3	AAG	K	AAA	K	synonymous
 NC_063383.1	176379	C	T	1	CGT	R	TGT	C	nonsynonymous
 NC_063383.1	125074	C	T	3	TTC	F	TTT	F	synonymous
 NC_063383.1	44740	C	T	1	GAA	E	AAA	K	nonsynonymous
-NC_063383.1	80067	C	T	2	TCC	S	TTC	F	nonsynonymous
+NC_063383.1	80067	C	T	1	CCG	P	TCG	S	nonsynonymous
 NC_063383.1	80067	C	T	2	TCC	S	TTC	F	nonsynonymous
 NC_063383.1	35969	C	T	1	GAA	E	AAA	K	nonsynonymous
 NC_063383.1	25644	C	T	-	-	-	-	-	intergenic
@@ -485,7 +485,7 @@ NC_063383.1	151204	C	T	-	-	-	-	-	intergenic
 NC_063383.1	8552	C	T	-	-	-	-	-	intergenic
 NC_063383.1	8597	C	T	-	-	-	-	-	intergenic
 NC_063383.1	133557	C	T	-	-	-	-	-	intergenic
-NC_063383.1	127245	C	T	3	GTC	V	GTT	V	synonymous
+NC_063383.1	127245	C	T	2	TCA	S	TTA	L	nonsynonymous
 NC_063383.1	127245	C	T	3	GTC	V	GTT	V	synonymous
 NC_063383.1	132437	C	T	-	-	-	-	-	intergenic
 NC_063383.1	183790	C	T	2	TCG	S	TTG	L	nonsynonymous
@@ -602,7 +602,7 @@ NC_063383.1	134052	C	T	-	-	-	-	-	intergenic
 NC_063383.1	141458	C	T	3	TTC	F	TTT	F	synonymous
 NC_063383.1	144199	C	T	3	CTC	L	CTT	L	synonymous
 NC_063383.1	174321	C	T	-	-	-	-	-	intergenic
-NC_063383.1	127215	C	T	3	TTC	F	TTT	F	synonymous
+NC_063383.1	127215	C	T	2	TCG	S	TTG	L	nonsynonymous
 NC_063383.1	127215	C	T	3	TTC	F	TTT	F	synonymous
 NC_063383.1	17810	C	T	3	ATG	M	ATA	I	nonsynonymous
 NC_063383.1	157792	C	T	-	-	-	-	-	intergenic
@@ -627,6 +627,6 @@ NC_063383.1	147011	C	T	3	ATC	I	ATT	I	synonymous
 NC_063383.1	46125	C	T	2	AGA	R	AAA	K	nonsynonymous
 NC_063383.1	4629	C	T	-	-	-	-	-	intergenic
 NC_063383.1	55075	C	T	1	GAC	D	AAC	N	nonsynonymous
-NC_063383.1	127220	C	T	2	TCA	S	TTA	L	nonsynonymous
+NC_063383.1	127220	C	T	1	CAA	Q	TAA	*	nonsense
 NC_063383.1	127220	C	T	2	TCA	S	TTA	L	nonsynonymous
 NC_063383.1	144527	C	T	1	CCT	P	TCT	S	nonsynonymous
